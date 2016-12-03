@@ -1,6 +1,6 @@
 FROM centos:6
 
-MAINTAINER Kihi "kihi1215@gmail.com"
+MAINTAINER Kihi
 
 RUN yum -y update && \
     rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm && \
